@@ -42,6 +42,15 @@
     <ClCompile Include="InputParam.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="_23MergekSortedLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_25ReverseNodesinkGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_1339MaximumProductofSplittedBinaryTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
@@ -51,6 +60,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_23MergekSortedLists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseNodesinkGroup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

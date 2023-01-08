@@ -6,10 +6,10 @@
 
 int main()
 {
-    auto ret = longestPalindrome("aba");
+    //auto ret = longestPalindrome("aba");
     //auto median = findMedianSortedArrays( v1, v2);
 
-    std::cout << ret;
+    //std::cout << ret;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

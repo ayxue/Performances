@@ -2,6 +2,18 @@
 #include <string>
 using namespace std;
 
+
+struct TreeNode {
+	int val;
+	TreeNode* left;
+	TreeNode* right;
+	TreeNode() : val(0), left(nullptr), right(nullptr) {}
+	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+	TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
+	
+};
+
+
 /// <summary>
 /// 
 /// </summary>
@@ -15,7 +27,13 @@ vector<int> twoSum(vector<int>& nums, int target);
 /// 两数相加
 /// https://leetcode.cn/problems/add-two-numbers/submissions/
 /// </summary>
-struct ListNode;
+struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode() : val(0), next(nullptr) {}
+	ListNode(int x) : val(x), next(nullptr) {}
+	ListNode(int x, ListNode* next) : val(x), next(next) {}
+};
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2, int addition);
 

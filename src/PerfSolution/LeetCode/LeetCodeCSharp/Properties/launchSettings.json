@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LeetCodeCSharp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

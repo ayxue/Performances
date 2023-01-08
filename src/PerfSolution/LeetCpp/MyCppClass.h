@@ -12,7 +12,9 @@ namespace CppTests_Mine
 }
 
 
-
-
+extern "C"
+{
+	__declspec(dllexport) long _cdecl SumArrayTest(int* height, int size);
+}
 
 

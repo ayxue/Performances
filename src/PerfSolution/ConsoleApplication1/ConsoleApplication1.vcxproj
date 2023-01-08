@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{263c36e0-5607-45f4-85da-f163e2015c28}</ProjectGuid>
-    <RootNamespace>LeetCpp</RootNamespace>
+    <ProjectGuid>{abab2090-015b-4b3e-ace1-f0cd89cef11f}</ProjectGuid>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -40,7 +40,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -139,25 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InputParam.h" />
-    <ClCompile Include="LeetCpp.cpp" />
-    <ClCompile Include="MyCppClass.cpp" />
-    <ClCompile Include="_1339MaximumProductofSplittedBinaryTree.cpp" />
-    <ClCompile Include="_25ReverseNodesinkGroup.cpp" />
-    <ClCompile Include="_07ReverseInteger.cpp" />
-    <ClCompile Include="_05LongestPalindromicSubstring.cpp" />
-    <ClCompile Include="_01TwoSum.cpp" />
-    <ClCompile Include="_02AddTwoNumbers.cpp" />
-    <ClCompile Include="_04MedianofTwoSortedArrays.cpp" />
-    <ClCompile Include="_08StringToInteger.cpp" />
-    <ClCompile Include="_23MergekSortedLists.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="leet.h" />
-    <ClInclude Include="MyCppClass.h" />
-    <ClInclude Include="Output.h" />
-    <ClInclude Include="ReverseNodesinkGroup.h" />
-    <ClInclude Include="_23MergekSortedLists.h" />
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

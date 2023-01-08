@@ -9,9 +9,10 @@ namespace LeetCodeCSharp
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run(typeof(_01TwoSum));
-            //var question = new _10ContainerWitMostWater();
-            //var result = question.Case02NoBoundCheck();
+            var summary = BenchmarkRunner.Run(typeof(ArrayTest));
+            //var test = new ArrayTest();
+
+            //test.SumCpp(new[] { 1,2,3});
         }
     }
 }
